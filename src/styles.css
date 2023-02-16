@@ -1,0 +1,50 @@
+body{
+    box-sizing: border-box;
+    background-color: bisque;
+    
+}
+
+.App{
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+}
+
+form{
+display: flex;
+flex-direction: column;
+border: 1px solid black;
+padding: 40px;
+border-radius: 15px;
+background-color: pink;
+
+
+}
+
+form > input, select {
+    margin-bottom: 5px;
+    width: 200px;
+    height: 30px;
+}
+ textarea{
+margin-bottom: 5px;
+height: 80px;
+}
+
+button{
+
+}
+
+.App input{
+    height: 20px;
+    padding-left: 20px;
+
+}
+
+.App button{
+width: 100px;
+margin-top: 20px;
+font-size: 20px;
+cursor: pointer;
+}
